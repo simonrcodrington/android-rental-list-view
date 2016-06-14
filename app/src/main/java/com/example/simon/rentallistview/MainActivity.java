@@ -54,8 +54,13 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("suburb", property.getSuburb());
                 intent.putExtra("state", property.getState());
                 intent.putExtra("image", property.getImage());
+                intent.putExtra("price", property.getPrice());
+                intent.putExtra("bedrooms", property.getBedrooms());
+                intent.putExtra("bathrooms", property.getBathrooms());
+                intent.putExtra("carspots", property.getCarspots());
+                intent.putExtra("description", property.getDescription());
 
-                startActivityForResult(intent, 1000);
+                startActivity(intent);
             }
         };
         //set the listener to the list view
