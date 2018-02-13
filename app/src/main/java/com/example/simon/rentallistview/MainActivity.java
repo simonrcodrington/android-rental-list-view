@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //create our property elements
-        rentalProperties.add(new Property(10, "Smith Street", "Sydney", "NSW", "A large 3 bedroom appartment right in the heart of Sydney! A rare find, with 3 bedrooms and a secured car park.", 450.00, "property_image_1", 3, 1, 1, false));
-        rentalProperties.add(new Property(66, "King Street", "Sydney", "NSW", "A fully furnished studio appartment overlooking the harbour. Minutes from the CBD and next to transport, this is a perfect set-up for city living.", 320.00, "property_image_2", 1, 1, 1, false));
-        rentalProperties.add(new Property(1, "Liverpool Road", "Liverpool", "NSW", "A standard 3 bdedroom house in the suburbs. With room for several cars and right next to shops this is perfect for new families.", 360.00, "property_image_3", 3, 2, 2, true));
-        rentalProperties.add(new Property(567, "Sunny Street", "Gold Coast", "QLD", "Come and see this amazing studio appartment in the heart of the gold coast, featuring stunning waterfront views.", 360.00, "property_image_4" , 1, 1, 1, false));
+        rentalProperties.add(new Property(10, "Smith Street", "Sydney", "NSW", "A large 3 bedroom apartment right in the heart of Sydney! A rare find, with 3 bedrooms and a secured car park.", 450.00, "property_image_1", 3, 1, 1, false));
+        rentalProperties.add(new Property(66, "King Street", "Sydney", "NSW", "A fully furnished studio apartment overlooking the harbour. Minutes from the CBD and next to transport, this is a perfect set-up for city living.", 320.00, "property_image_2", 1, 1, 1, false));
+        rentalProperties.add(new Property(1, "Liverpool Road", "Liverpool", "NSW", "A standard 3 bedroom house in the suburbs. With room for several cars and right next to shops this is perfect for new families.", 360.00, "property_image_3", 3, 2, 2, true));
+        rentalProperties.add(new Property(567, "Sunny Street", "Gold Coast", "QLD", "Come and see this amazing studio apartment in the heart of the gold coast, featuring stunning waterfront views.", 360.00, "property_image_4" , 1, 1, 1, false));
 
         //create our new array adapter
         ArrayAdapter<Property> adapter = new propertyArrayAdapter(this, 0, rentalProperties);
